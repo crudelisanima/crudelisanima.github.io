@@ -1,0 +1,45 @@
+html {
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p, li {
+  font-size: 16px;  
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+html {
+  background-color: #00539F;
+}
+/***Padding value - top, right, bottom, left ***/
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #FF9500;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+/***
+	"text-shadow"
+    The first pixel value sets the horizontal offset of the shadow from the text — how far it moves across.
+    The second pixel value sets the vertical offset of the shadow from the text — how far it moves down.
+    The third pixel value set the blur radius of the shadow — a bigger value will mean a more blurry shadow.
+    The fourth value is the base colour of the shadow.
+***/
+h1 {
+  margin: 0;
+  padding: 20px 0;  
+  color: #00539F;
+  text-shadow: 3px 3px 1px black;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
